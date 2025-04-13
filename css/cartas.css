@@ -1,0 +1,188 @@
+.carta {
+  width: 71px;
+  height: 96px;
+  background-image: url("../img/cartas.png");
+  display: inline-block;
+  margin: 5px;
+}
+
+
+#tacoCartas {
+  width: 71px; 
+  height: 96px; 
+  background-image: url("../img/cartas.png"); 
+  background-position: -213px -384px; /* Posición de la carta en el sprite */
+  background-repeat: no-repeat;
+  border: 1px solid black; 
+}
+
+.cartaMoviendose{
+  width: 71px; 
+  height: 96px; 
+  background-image: url("../img/cartas.png"); 
+  background-position: -213px -384px; 
+  background-repeat: no-repeat;
+  border: 1px solid black; 
+  animation: moverCarta 1s ease-in-out forwards;
+}
+
+
+.carta-As-Picas {
+  background-position: 0 0;
+}
+.carta-2-Picas {
+  background-position: -72px 0;
+}
+.carta-3-Picas {
+  background-position: -143px 0;
+}
+.carta-4-Picas {
+  background-position: -214px 0;
+}
+.carta-5-Picas {
+  background-position: -285px 0;
+}
+.carta-6-Picas {
+  background-position: -356px 0;
+}
+.carta-7-Picas {
+  background-position: -427px 0;
+}
+.carta-8-Picas {
+  background-position: -498px 0;
+}
+.carta-9-Picas {
+  background-position: -569px 0;
+}
+.carta-10-Picas {
+  background-position: -640px 0;
+}
+.carta-Jota-Picas {
+  background-position: -711px 0;
+}
+.carta-Reina-Picas {
+  background-position: -782px 0;
+}
+.carta-Rey-Picas {
+  background-position: -853px 0;
+}
+
+.carta-As-Corazones {
+  background-position: 0 -97px;
+}
+.carta-2-Corazones {
+  background-position: -72px -97px;
+}
+.carta-3-Corazones {
+  background-position: -143px -97px;
+}
+.carta-4-Corazones {
+  background-position: -214px -97px;
+}
+.carta-5-Corazones {
+  background-position: -285px -97px;
+}
+.carta-6-Corazones {
+  background-position: -356px -97px;
+}
+.carta-7-Corazones {
+  background-position: -427px -97px;
+}
+.carta-8-Corazones {
+  background-position: -498px -97px;
+}
+.carta-9-Corazones {
+  background-position: -569px -97px;
+}
+.carta-10-Corazones {
+  background-position: -640px -97px;
+}
+.carta-Jota-Corazones {
+  background-position: -711px -97px;
+}
+.carta-Reina-Corazones {
+  background-position: -782px -97px;
+}
+.carta-Rey-Corazones {
+  background-position: -853px -97px;
+}
+
+.carta-As-Treboles {
+  background-position: 0 -193px;
+}
+.carta-2-Treboles {
+  background-position: -72px -193px;
+}
+.carta-3-Treboles {
+  background-position: -143px -193px;
+}
+.carta-4-Treboles {
+  background-position: -214px -193px;
+}
+.carta-5-Treboles {
+  background-position: -285px -193px;
+}
+.carta-6-Treboles {
+  background-position: -356px -193px;
+}
+.carta-7-Treboles {
+  background-position: -427px -193px;
+}
+.carta-8-Treboles {
+  background-position: -498px -193px;
+}
+.carta-9-Treboles {
+  background-position: -569px -193px;
+}
+.carta-10-Treboles {
+  background-position: -640px -193px;
+}
+.carta-Jota-Treboles {
+  background-position: -711px -193px;
+}
+.carta-Reina-Treboles {
+  background-position: -782px -193px;
+}
+.carta-Rey-Treboles {
+  background-position: -853px -193px;
+}
+
+.carta-As-Diamantes {
+  background-position: 0 -289px;
+}
+.carta-2-Diamantes {
+  background-position: -72px -289px;
+}
+.carta-3-Diamantes {
+  background-position: -143px -289px;
+}
+.carta-4-Diamantes {
+  background-position: -214px -289px;
+}
+.carta-5-Diamantes {
+  background-position: -285px -289px;
+}
+.carta-6-Diamantes {
+  background-position: -356px -289px;
+}
+.carta-7-Diamantes {
+  background-position: -427px -289px;
+}
+.carta-8-Diamantes {
+  background-position: -498px -289px;
+}
+.carta-9-Diamantes {
+  background-position: -569px -289px;
+}
+.carta-10-Diamantes {
+  background-position: -640px -289px;
+}
+.carta-Jota-Diamantes {
+  background-position: -711px -289px;
+}
+.carta-Reina-Diamantes {
+  background-position: -782px -289px;
+}
+.carta-Rey-Diamantes {
+  background-position: -853px -289px;
+}

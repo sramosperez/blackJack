@@ -1,0 +1,124 @@
+body{
+    background: url('../img/fondo.jpg') ; 
+    background-size:cover;
+    height:100vh;
+    font-family: Arial, sans-serif;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr; /*dos columnas de igual ancho */
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr; /*cuatro filas de altura automatica */
+    gap:10px; 
+    height:100%;
+    box-sizing: border-box;
+  
+}
+#puntuaciones{
+   
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width:70%;
+    justify-self: start;
+    margin:50px;
+    font-size:20px;
+}
+
+#mesa, #participantes{
+    background-color: #fdfcfb;
+    border: 2px solid black;
+
+}
+
+#participantes{
+    visibility: hidden;
+}
+
+.resultadosBots{
+    background-color: #fdfcfb;
+}
+.participantes {
+    background-color: #80808042;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width:80%;
+    justify-self: start;
+    margin:10px;
+    font-size:16px;
+}
+
+.participantes p{
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+
+#tacoCartas{
+    grid-column:3/4;
+    grid-row:1/2;
+    width:80%;
+    justify-self: end;
+    margin:50px;
+}
+
+#participantes{
+    grid-column: 1/2;
+    grid-row:2/5;
+}
+
+#resultadoBots{
+    grid-column: 3/4;
+    grid-row: 2/5;
+    width:80%;
+    justify-self: start;
+    margin:10px;
+    visibility: hidden;
+    height: auto;
+}
+#crupier{
+    grid-column: 2/3;
+    grid-row:2/3;
+    text-align: center;
+}
+
+
+#resultado{
+    grid-column: 2/3;
+    grid-row:3/4;
+    text-align: center;
+    align-self:end;
+    font-size:25px;
+    color:red;
+}
+#jugadorActivo{
+    grid-column: 2/3;
+    grid-row:3/4;
+    text-align: center;
+    align-self:start;
+    font-size:25px;
+    color:orange; 
+}
+#cartasJugador{
+    grid-column:2/3;
+    grid-row:4/5;
+    text-align: center;
+}
+#botonesJuego{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    justify-self: end;
+    margin-top: 20px;
+}
+
+@keyframes moverCarta{
+    from{
+        transform: translateX(67vw) translateY(8vh)
+    }
+   
+    to{
+        transform: translateX(35vw) translateY(60vh);
+    }
+}
+
+
+
